@@ -1,0 +1,31 @@
+% arq = 'stdy_compress_QxT';
+% system(['epstopdf ../eps/',arq,'.eps']);
+% system('mv ../eps/*.pdf ../pdf');
+
+arq = 'estab_sp';
+system(['epstopdf ../eps/',arq,'.eps']);
+system('mv ../eps/*.pdf ../pdf');
+% arq = 'estab_tp';
+% system(['epstopdf ../eps/',arq,'.eps']);
+% system('mv ../eps/*.pdf ../pdf');
+% arq = 'estab_sc';
+% system(['epstopdf ../eps/',arq,'.eps']);
+% system('mv ../eps/*.pdf ../pdf');
+
+% arq = 'mxQ_sp';
+% system(['epstopdf ../eps/',arq,'.eps']);
+% system('mv ../eps/*.pdf ../pdf');
+% arq = 'mxQ_tp';
+% system(['epstopdf ../eps/',arq,'.eps']);
+% system('mv ../eps/*.pdf ../pdf');
+% arq = 'mxQ_sc';
+% system(['epstopdf ../eps/',arq,'.eps']);
+% system('mv ../eps/*.pdf ../pdf');
+
+% arq = 'nyquist_St10Gr';
+% system(['epstopdf ../eps/',arq,'.eps']);
+% system('mv ../eps/*.pdf ../pdf');
+%
+% arq = 'T0';
+% system(['epstopdf ../eps/',arq,'.eps']);
+% system('mv ../eps/*.pdf ../pdf');
